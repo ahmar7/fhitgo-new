@@ -1,0 +1,172 @@
+.fbanner {
+  background-image: url(../assets/img/fh.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.fbanner .hero-banner .banner {
+  margin: 0 auto;
+}
+.fbanner .full-banner {
+  display: flex;
+  align-items: center;
+}
+.nav-links .active {
+  font-weight: bold;
+}
+.pe-z5 {
+  padding-inline: 20px !important;
+}
+.fbanner .hero-banner .banner-right-center {
+  background-position: right center;
+}
+.toggle-content {
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Add visibility transition */
+}
+
+.fbanner .mk-two-btn a button {
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 5px 12px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.fbanner h5 {
+  font-weight: lighter;
+  text-decoration: underline;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.fbanner h3 {
+  margin: 0;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+.fbanner h1,
+.fbanner h2,
+.fbanner h3,
+.fbanner h5,
+.fbanner h6 {
+  color: white;
+}
+.dark_cta {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateZ(0);
+  z-index: 1;
+}
+.fbanner .full-banner.banner-right-center {
+  background-position: center right;
+}
+.fbanner .mk-four {
+  min-height: 300px;
+}
+.fbanner .full-banner {
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.rad-icon-button {
+  display: none !important;
+}
+.fbanner .fbanner .banner .container,
+.fbanner .banner .body_container {
+  padding: 2em 0.5em;
+  position: relative;
+  z-index: 3;
+}
+.fbanner .column_control {
+  padding: 0;
+  position: relative;
+}
+.rad-content-grid-card__label {
+  font-weight: bold !important;
+  font-size: 22px !important;
+}
+.fbanner .hero-banner .top {
+  padding-top: 1em;
+}
+.fbanner .top {
+  padding-top: 1.5em;
+}
+.fbanner .txt-left {
+  text-align: left;
+}
+.fbanner .hero-banner .mk-font-light a {
+  color: #fff;
+}
+.fbanner .mk-two-btn a:first-child {
+  padding-right: 10px;
+}
+.fbanner .mk-two-btn a:first-child button {
+  margin-bottom: 15px;
+}
+.fbanner .orange-btn {
+  background: #f96702;
+  border: 1px solid #f96702;
+  color: white;
+}
+.fbanner .btn-title {
+  display: inline-block;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+.fbanner .mint-btn {
+  background: #00828c;
+  border: 1px solid #00828c;
+  color: #fff;
+}
+.fbanner .btn-title {
+  display: inline-block;
+  margin-bottom: 2px;
+  vertical-align: middle;
+}
+@media screen and (min-width: 768px) {
+  .fbanner .mk-two-btn a:first-child button {
+    margin-bottom: 0;
+  }
+
+  .fbanner .banner .container,
+  .fbanner .banner .body_container {
+    /* padding: 4em 0; */
+  }
+}
+@media screen and (min-width: 992px) {
+  .fbanner .mk-four {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .fto .feature-box {
+    flex-direction: column;
+    align-items: start;
+  }
+  .fto .feature-box-info {
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  .pods {
+    padding-inline: 20px !important;
+  }
+  .fto .porto-feature-box {
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .fbanner h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: normal;
+  }
+}
