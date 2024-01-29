@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+import cross from "../assets/img/cross.svg";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 import menu_bar from "../assets/img/menu-bar.svg";
 import React, { useState } from "react";
@@ -51,19 +52,37 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div
-        onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
-      >
+      <div className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden flexsA">
         {nav ? (
-          <span className="text-5xl">×</span>
+          <span onClick={() => setNav(!nav)} className=" ">
+            <img
+              src={cross}
+              className="h-8 pl-2"
+              height={20}
+              width={100}
+              alt=""
+            />
+          </span>
         ) : (
-          <img src={menu_bar} className="h-8 pl-16" height={20} width={100} />
+          <img
+            onClick={() => setNav(!nav)}
+            src={menu_bar}
+            className="h-8 pl-2"
+            height={20}
+            width={100}
+          />
         )}
+        <li className="px-3 flex justify-center items-center cursor-pointer capitalize  pb-2 user-ico text-4xl">
+          <i class="fa-solid fa-user"></i>
+          <div className="abs-ad">
+            <Link to="/register">Register</Link>
+            <Link to="/login">Login</Link>
+          </div>
+        </li>
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center transition-all absolute top-0 left-0 w-full h-screen bg-white text-black overflow-auto">
+        <ul className="flex mdlo flex-col justify-center items-center transition-all absolute top-0 left-0 w-full h-screen bg-white text-black overflow-auto">
           {links.map(({ title, link }) => (
             <li
               key={title}
@@ -76,6 +95,13 @@ const Navbar = () => {
           ))}
         </ul>
       )}
+      <li className="px-10 lghidden flex justify-center items-center cursor-pointer capitalize  pb-2 user-ico text-4xl">
+        <i class="fa-solid fa-user"></i>
+        <div className="abs-ad">
+          <Link to="/register">Register</Link>
+          <Link to="/login">Login</Link>
+        </div>
+      </li>
     </div>
   );
 };

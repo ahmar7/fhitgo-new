@@ -48,7 +48,7 @@
 .gm {
   color: white;
 }
-.rad-card-grid__cards-container {
+/* .rad-card-grid__cards-container {
   padding-top: 50px !important;
 }
 .rad-content-grid-card:hover
@@ -72,7 +72,7 @@
 .rad-content-grid-card.rad-content-grid-card--perspective,
 .rad-content-grid-card.rad-content-grid-card--research-report-dark {
   transition: all 0.3s ease-in-out;
-}
+} */
 .mainsa {
   padding-top: 50px;
 }

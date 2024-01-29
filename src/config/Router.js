@@ -20,6 +20,8 @@ import Footer from "../components/Footer";
 import Res1 from "../Service/res1";
 import Res2 from "../Service/res2";
 import Res3 from "../Service/res3";
+import Register from "../pages/Register";
+import LoginForm from "../components/LoginForm";
 
 export default function Router() {
   return (
@@ -33,7 +35,8 @@ export default function Router() {
           <Route index path="/About" element={<About />} />
           <Route index path="/industry" element={<Industry />} />
           <Route index path="/Services" element={<Services />} />
-          {/* <Route index path="/resources" element={<Resources />} /> */}
+          <Route index path="/register" element={<Register />} />
+          <Route index path="/login" element={<LoginForm />} />
           <Route index path="/Firebase" element={<Service1 />} />
           <Route index path="/FHIRAnalytics" element={<Service1 />} />
           <Route index path="/DataMigrationServices" element={<Service2 />} />

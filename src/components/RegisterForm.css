@@ -1,0 +1,35 @@
+.dcxa-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reg-f input {
+  border: 1px solid lightgray !important;
+}
+.text-bl {
+  color: black !important;
+  font-weight: bold;
+}
+.form-control {
+  background-color: transparent !important;
+}
+@media (max-width: 768px) {
+  .lghidden {
+    display: none;
+  }
+  .flexsA {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .flexsA li {
+    padding: 0 !important;
+  }
+  .flexsA li i {
+    font-size: 31px;
+  }
+  .mdlo {
+    padding-left: 0 !important;
+  }
+}
