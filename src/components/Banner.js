@@ -1,5 +1,6 @@
 import React from "react";
 import "./Fhirgo.css";
+import { Link } from "react-router-dom";
 
 const FhirbaseBanner = () => {
   return (
@@ -40,10 +41,10 @@ const FhirbaseBanner = () => {
                                     {/* Button Component Sightly */}
                                     <div className="top ">
                                       <div className="mk-two-btn center-block txt-left">
-                                        <a
+                                        <Link
                                           data-player="Gsbl36Q4L"
                                           target="_self"
-                                          href="#"
+                                          to="/login"
                                         >
                                           <button className="orange-btn   ">
                                             <div className="btn-title">
@@ -51,7 +52,7 @@ const FhirbaseBanner = () => {
                                               Request Demo
                                             </div>
                                           </button>
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
