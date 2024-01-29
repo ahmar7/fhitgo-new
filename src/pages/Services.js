@@ -71,7 +71,7 @@ const Services = () => {
             />
             {/* DEV NOTE: aria-label text is copied from __content and rad-button--tertiary-dynamic below */}
             <Link
-              to="FHIRHealthExchange"
+              to="/FHIRHealthExchange"
               target="_self"
               className="rad-content-grid-card__cta-cover"
               aria-label="pulse-of-change Expand"
@@ -574,9 +574,9 @@ const Services = () => {
               aria-label="Perspective: Reinvention, by the numbers"
             />
             {/* DEV NOTE: aria-label text is copied from __content and rad-button--tertiary-dynamic below */}
-            <a
+            <Link
               target="_self"
-              href="#"
+              to="/ClinicalIntegration"
               className="rad-content-grid-card__cta-cover"
               tabIndex={-1}
               aria-label="Reinvention, by the numbers Expand"
@@ -637,8 +637,8 @@ const Services = () => {
                     ensure that your medical practice is running at maximum.
                   </p>
                 </div>
-                <a
-                  href="#"
+                <Link
+                  tp="/ClinicalIntegration"
                   className="rad-button rad-button--ghost"
                   tabIndex={-1}
                   target="_self"
@@ -650,7 +650,7 @@ const Services = () => {
                   data-cmp-data-layer='{"tile-grid-card-cta-button-6":{"xdm:linkURL":"/in-en/insights/strategy/reinvention-by-numbers","analytics-link-name":"Expand:Reinvention, by the numbers","analytics-link-type": "engagement","analytics-engagement":"true","analytics-module-name":"perspective card button-6","analytics-template-zone":"block-tilegrid"}}'
                 >
                   <div className="rad-button__text">Expand</div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

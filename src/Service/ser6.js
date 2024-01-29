@@ -5,7 +5,7 @@ const Service6 = () => {
       <h1 className="text-center">Our Service </h1>
       <Banner />
       <h2 className="text-center">FHIR Health Exchange</h2>
-      <p>
+      <p className="px-3">
         <p>
           FHIR is a standard developed by Health Level Seven International (HL7)
           that is designed to enhance interoperability by providing a modern and

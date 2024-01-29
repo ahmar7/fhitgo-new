@@ -5,7 +5,7 @@ const Service5 = () => {
       <h1 className="text-center">Our Service </h1>
       <Banner />
       <h2 className="text-center">Clinical Data integration</h2>
-      <p>
+      <p className="px-3">
         <p>
           Clinical Data Integration using CDS Hooks refers to the implementation
           of a standard called Clinical Decision Support (CDS) Hooks to enable
