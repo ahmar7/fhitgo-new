@@ -42,6 +42,19 @@ const Services = () => {
       id="redesign-tile"
       data-cmp-data-layer='{"redesign-tile":{"@type":"cio-sites/components/rad/blocks/tilegridv2","analytics-module-name":"tilegridv2-1","analytics-template-zone":"block-tilegrid"}}'
     >
+      <div className="container mb-5">
+        <div className="text-center">
+          <h1>Our Services</h1>
+        </div>
+        <div className="mx-auto text-center" style={{ maxWidth: "600px" }}>
+          <p className="lead">
+            Our service offerings are aligned to the changing world of our
+            customers. Our portfolio of services ranges from designing a
+            strategy to delivering impact.
+          </p>
+        </div>
+      </div>
+
       <div className="rad-card-grid__cards-viewport">
         <div
           className="rad-card-grid__cards-container"
@@ -656,7 +669,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="rad-card-grid__slider-container">
+      {/* <div className="rad-card-grid__slider-container">
         <label
           htmlFor="carousel-slider-id"
           className="rad__range-input-slider-label"
@@ -672,7 +685,7 @@ const Services = () => {
           defaultValue={1}
           type="range"
         />
-      </div>
+      </div> */}
     </div>
   );
 };
