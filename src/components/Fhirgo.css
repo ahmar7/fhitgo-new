@@ -104,6 +104,9 @@
   color: black;
   font-size: 23px;
 }
+.tex-le {
+  text-align: left;
+}
 .fbanner .full-banner {
   position: relative;
   background-position: center center;

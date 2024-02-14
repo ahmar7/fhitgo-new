@@ -62,7 +62,7 @@ const Footer = () => {
             <h2 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Contact
             </h2>
-            <p className="mb-4 flex items-center justify-center md:justify-start text-sm md:text-lg">
+            <p className="mb-4 tex-le flex  justify- justify-start text-sm md:text-lg">
               30 N Gould St Ste R, Sheridan, WY 82801
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
